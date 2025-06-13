@@ -9,9 +9,8 @@ on:
     - '.github/workflows/build.yml'
 
 jobs:
-
   version_reader:
-    name: Get version number
+    name: Get version number 
     runs-on: ubuntu-latest
     outputs:
       v8_version: ${{ steps.got_version.outputs.version }}
